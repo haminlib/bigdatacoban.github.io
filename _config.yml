@@ -1,52 +1,57 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
+name: 'Hamins trip'
+description: 'Hamins trip - Một góc tĩnh nơi cuối đường phiêu du'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 12
 baseurl: '/'
-email: 'wowthemesnet@gmail.com'
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+disqus: 'hamins trip'
+email: 'hamintrip@gmail.com'
+mailchimp-list: ''
 
-# Authors
-authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+include: ["_pages"]
+permalink: /:title/
 
 # Plugins
 plugins: 
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-archives
-        
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Other
+  
+authors:
+    hamin:
+      name:           Hamin trip
+      site:           https://bigdatacoban.com
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Hi, I am hamin, the author of hamintrip"
+      email:          hamintrip@gmail.com
+      twitter:        https://twitter.com/hamintrip
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
 markdown: kramdown
 highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+theme: jekyll-theme-minimal
