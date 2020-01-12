@@ -14,7 +14,8 @@ Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là m�
 Big data được tạo thành từ các nguồn bao gồm các trang web, phương tiện truyền thông xã hội, máy tính để bàn và ứng dụng di động, thí nghiệm khoa học, các cảm biến và các thiết bị khác trên internet (IoT).
 
 **2. Những công cụ cần học để khai thác Big Data**
-***- Hadoop***
+
+***Hadoop***
 Hadoop được coi là xương sống trong các dự án Big Data. Thư viện phần mềm Hadoop là một nền tảng cho phép các tập dữ liệu lớn được xử lý phân tán thông qua các cụm máy tính sử dụng mô hình lập trình đơn giản. Nó được thiết kế để mở rộng từ một máy chủ lên hàng nghìn máy, mỗi máy chủ có khả năng cung cấp năng lực tính toán và lưu trữ cục bộ.
 - Các modul của Hadoop:
 + Hadoop Common, các tiện ích phổ biến hỗ trợ các mô-đun Hadoop khác
@@ -22,6 +23,7 @@ Hadoop được coi là xương sống trong các dự án Big Data. Thư viện
 + Hadoop YARN, một nền tảng cho việc lập kế hoạch công việc và quản lý tài nguyên cụm
 + Hadoop MapReduce, một hệ thống dựa trên YARN để xử lý song song các tập dữ liệu lớn.
 + Apache Spark: Apache Spark là một nền tảng hệ thống tính toán mã nguồn mở phục vụ như một công cụ để xử lý Big Data trong Hadoop. Spark đã trở thành một trong những nền tảng xử lý phân tán dữ liệu quan trọng và có thể được triển khai theo nhiều cách khác nhau. Nó cung cấp các ràng buộc nguyên gốc cho Java, Scala, Python (đặc biệt là Python Anaconda) và ngôn ngữ lập trình R (R đặc biệt phù hợp với dữ liệu lớn), đồng thời cũng hỗ trợ SQL, dữ liệu luồng, machine learning và xử lý đồ thị.
+
 ***Cơ sở dữ liệu***
 NoSQL - MongoDB
 Cơ sở dữ liệu NoSQL lưu trữ và quản lý dữ liệu theo cách linh hoạt và xử lý tốc độ cao. Không giống như cơ sở dữ liệu SQL, nhiều cơ sở dữ liệu NoSQL có thể được thu nhỏ theo chiều ngang trên hàng trăm hoặc hàng nghìn máy chủ.
