@@ -35,7 +35,7 @@ defaults:
     values:
       layout: post
       author: hamin
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/avatar.png
       
   # all pages
   - scope:
