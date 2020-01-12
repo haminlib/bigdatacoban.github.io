@@ -20,7 +20,7 @@ plugins:
   
 authors:
     hamin:
-      name:           Big Data cơ bản
+      name:           HaMin
       site:           https://bigdatacoban.com
       avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am hamin, the author of Big Data cơ bản"
@@ -34,7 +34,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: hamin
       avatar: /assets/images/avatar1.jpg
       
   # all pages
