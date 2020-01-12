@@ -4,6 +4,8 @@ title:  "Big Data là gì?"
 categories: [ Big Data ]
 image: assets/images/content/bigdata-la-gi.jpeg
 ---
+Nếu các bạn làm việc trong ngành công nghệ thông tin hay là những tổ chức lớn như Y tế, Ngân hàng, thương mại điện tử.. chắc rằng các bạn đã từng nghe qua cụm từ “Big Data” hay còn được biết đến với cái tên Dữ Liệu Lớn. Vậy Big Data là gì? Và tầm quan trọng của nó như thế nào?
+
 **1. Big Data là gì?**
 
 Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là một tập hợp dữ liệu LỚN, RẤT LỚN bao gồm các dữ liệu có cấu trúc, không có cấu trúc, hoặc cấu trúc không đầy đủ. Big Data có tập dữ liệu lớn với độ phúc tạp khó có thể xử lý được trên những máy tính thông thường với những kỹ thuật truyền thống.
