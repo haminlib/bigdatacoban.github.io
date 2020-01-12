@@ -6,7 +6,7 @@ image: assets/images/content/bigdata-la-gi.jpeg
 ---
 **1. Big Data là gì?**
 
-Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là một tập hợp dữ liệu LỚN, Rất LỚN bao gồm các dữ liệu có cấu trúc, không có cấu trúc, hoặc cấu trúc không đầy đủ. Big Data có tập dữ liệu lớn với độ phúc tạp khó có thể xử lý được trên những máy tính thông thường với những kỹ thuật truyền thống.
+Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là một tập hợp dữ liệu LỚN, RẤT LỚN bao gồm các dữ liệu có cấu trúc, không có cấu trúc, hoặc cấu trúc không đầy đủ. Big Data có tập dữ liệu lớn với độ phúc tạp khó có thể xử lý được trên những máy tính thông thường với những kỹ thuật truyền thống.
 Đặc trưng chính của Big Data bao gốm: 3V
 - Volume: độ lớn của dữ liệu;
 - Variety: độ da dạng của dữ liệu;
