@@ -4,7 +4,7 @@ title:  "Big Data là gì?"
 categories: [ Big Data ]
 image: assets/images/content/bigdata-la-gi.jpeg
 ---
-**1. Big Data là gì?**
+1. Big Data là gì?
 
 Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là một tập hợp dữ liệu LỚN, Rất LỚN bao gồm các dữ liệu có cấu trúc, không có cấu trúc, hoặc cấu trúc không đầy đủ. Big Data có tập dữ liệu lớn với độ phúc tạp khó có thể xử lý được trên những máy tính thông thường với những kỹ thuật truyền thống.
 Đặc trưng chính của Big Data bao gốm: 3V
@@ -13,7 +13,7 @@ Hiểu một cách đơn giản nhất, đúng như tên gọi - Big Data là m�
 - Velocity: tốc độ mà dữ liệu cần được xử lý và phân tích.
 Big data được tạo thành từ các nguồn bao gồm các trang web, phương tiện truyền thông xã hội, máy tính để bàn và ứng dụng di động, thí nghiệm khoa học, các cảm biến và các thiết bị khác trên internet (IoT).
 
-**2. Những công cụ cần học để khai thác Big Data**
+2. Những công cụ cần học để khai thác Big Data
 
 ***Hadoop***
 Hadoop được coi là xương sống trong các dự án Big Data. Thư viện phần mềm Hadoop là một nền tảng cho phép các tập dữ liệu lớn được xử lý phân tán thông qua các cụm máy tính sử dụng mô hình lập trình đơn giản. Nó được thiết kế để mở rộng từ một máy chủ lên hàng nghìn máy, mỗi máy chủ có khả năng cung cấp năng lực tính toán và lưu trữ cục bộ.
